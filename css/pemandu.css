@@ -1,0 +1,141 @@
+
+
+.container{
+    
+
+}
+
+/* style.css */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.right {
+  margin-top: 50px;
+}
+
+.body {
+  background-color: #fff;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table img {
+  border-radius: 50%;
+}
+
+
+
+.head{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px 0px 1px;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+    background-color: blue;
+    
+}
+
+
+
+
+.left a{
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.right{
+    width: 80%;
+}
+
+
+
+.kelas{
+    color: red;
+}
+ input,select{
+    height: 40px;
+    width: 100%;
+    
+}
+
+label{
+    
+}
+button{
+    width: 100%;
+    margin: 10px 0px 10px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width : 760px) {
+   
+    
+    .container{
+        background-color: skyblue;
+        
+    }
+  .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding-left: 20px;
+  }
+  .left{
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+
+  input,select{
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+    height: 40px;
+  }
+  button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px 10px;
+  }
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
